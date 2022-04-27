@@ -53,8 +53,22 @@ public class NematodeVisualiser extends PApplet
 		}
 	}
 
+	public void arrows()
+	{
+		stroke(255);
+
+		line(100, 400, 250, 400);
+		line(100, 400, 150, 425);
+		line(100, 400, 150, 375);
+
+		line(700, 400, 550, 400);
+		line(700, 400, 650, 425);
+		line(700, 400, 650, 375);
+	}
+
 
 	public void draw()
-	{	
+	{
+		arrows();
 	}
 }

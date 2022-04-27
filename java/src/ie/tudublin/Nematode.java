@@ -70,4 +70,9 @@ public class Nematode
         this.eyes = eyes;
     }
 
+    public void render(NematodeVisualiser pa)
+    {
+        
+    }
+
 }
